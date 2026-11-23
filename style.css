@@ -2,7 +2,29 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+header{
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
 .left img{
-  width: 23px;
+  width: 32px;
   height: 23px;
+}
+
+.container{
+  padding: 0 10vw;
+  margin: auto;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1{
+  background-color: #f2f2f2;
+  height: 122vh;
 }
