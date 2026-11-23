@@ -146,4 +146,19 @@ header {
     color: #94969f;
     text-align: end;
     padding: 15px;
+}.footer_description {
+    background-color: #fafbfc;
+    padding: 25px 2%;
+}
+
+.footer_description h3 {
+    color: #535766;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_description p {
+    color: #94969f;
+    font-size: 18px;
+    line-height: 1.5;
 }
