@@ -161,4 +161,14 @@ header {
     color: #94969f;
     font-size: 18px;
     line-height: 1.5;
+}/* App Promotion Banner */
+.app_promo_container {
+    width: 92%;
+    margin: 30px auto;
+}
+
+.app_promo_container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
