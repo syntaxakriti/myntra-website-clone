@@ -10,7 +10,13 @@ header {
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #b6b1b1;
+
+    /* Bottom separation like original Myntra */
+    border-bottom: 1px solid #f5f5f6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+    position: relative;
+    z-index: 100;
 }
 .myntra_home {
     height: 45px;
