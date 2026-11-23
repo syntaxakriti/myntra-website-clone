@@ -171,4 +171,14 @@ header {
     width: 100%;
     height: auto;
     display: block;
+}/* Promotional Banner */
+.promo_container {
+    width: 92%;
+    margin: 15px auto;
+}
+
+.promo_container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
