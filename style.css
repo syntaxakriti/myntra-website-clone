@@ -4,6 +4,7 @@
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     box-sizing: border-box;
 }
+
 header {
     display: flex;
     background-color: #ffffff;
@@ -18,6 +19,7 @@ header {
     position: relative;
     z-index: 100;
 }
+
 .myntra_home {
     height: 45px;
 }
@@ -142,11 +144,7 @@ header {
     padding-bottom: 5px;
 }
 
-.copyright {
-    color: #94969f;
-    text-align: end;
-    padding: 15px;
-}.footer_description {
+.footer_description {
     background-color: #fafbfc;
     padding: 25px 2%;
 }
@@ -161,23 +159,33 @@ header {
     color: #94969f;
     font-size: 18px;
     line-height: 1.5;
-}/* App Promotion Banner */
-.app_promo_container {
-    width: 92%;
-    margin: 30px auto;
 }
 
-.app_promo_container img {
-    width: 100%;
-    height: auto;
-    display: block;
-}/* Promotional Banner */
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+
+/* Promotional Banner */
 .promo_container {
     width: 92%;
     margin: 15px auto;
 }
 
 .promo_container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* App Promotion Banner */
+.app_promo_container {
+    width: 92%;
+    margin: 30px auto;
+}
+
+.app_promo_container img {
     width: 100%;
     height: auto;
     display: block;
